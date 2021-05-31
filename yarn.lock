@@ -1735,7 +1735,7 @@
     "@emotion/utils" "^1.0.0"
     csstype "^3.0.2"
 
-"@emotion/sheet@0.9.4", "@emotion/sheet@^1.0.0", "@emotion/sheet@^1.0.1":
+"@emotion/sheet@0.9.4", "@emotion/sheet@1.0.1", "@emotion/sheet@^1.0.0", "@emotion/sheet@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@emotion/sheet/-/sheet-1.0.1.tgz#245f54abb02dfd82326e28689f34c27aa9b2a698"
   integrity sha512-GbIvVMe4U+Zc+929N1V7nW6YYJtidj31lidSmdYcWozwoBIObXBnaJkKNDjZrLm9Nc0BR+ZyHNaRZxqNZbof5g==
@@ -3083,10 +3083,10 @@
   dependencies:
     "@findeth/abi" "^0.7.1"
 
-"@mycrypto/wallets@1.2.2":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@mycrypto/wallets/-/wallets-1.2.2.tgz#42f4b6b7b97aaf3137a8c8616a0d6e729b972815"
-  integrity sha512-16V4QboWNg3xqCQJVxQAXjNz07SxjC86cwy56nbSySFmJIykmrM1DtIf9PFRMxpKd1xQxUxSqwUDFMPOG2capw==
+"@mycrypto/wallets@1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@mycrypto/wallets/-/wallets-1.2.3.tgz#a7219bfabc22956b10fcdb95643047aeed79e09e"
+  integrity sha512-7MZO/vSfnu9OVLm3qbPIIW1n855Pdpv02iNSPYjQWrR2n5PDjjo+Yy3Jt1HNSgOojoTHn8BaHy/Rx+67pvq5Dw==
   dependencies:
     "@ethersproject/abstract-provider" "5.3.0"
     "@ethersproject/address" "5.3.0"

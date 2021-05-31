@@ -28,6 +28,7 @@ import {
   DEFAULT_VOLTA,
   DEFAULT_WEB,
   DEFAULT_XDAI,
+  HECO_DEFAULT,
   LEDGER_ETC,
   LEDGER_ETH,
   MAINNET_RSK,
@@ -1098,6 +1099,32 @@ export const NETWORKS_CONFIG: NetworkConfig = {
       [WalletId.TREZOR_NEW]: DEFAULT_EVRICE,
       [WalletId.LEDGER_NANO_S_NEW]: DEFAULT_EVRICE,
       default: DEFAULT_EVRICE
+    },
+    gasPriceSettings: {
+      min: 1,
+      max: 60,
+      initial: 1
+    }
+  },
+  HECO: {
+    id: 'HECO',
+    name: 'Huobi Eco Chain',
+    unit: 'HT' as TTicker,
+    chainId: 128,
+    isCustom: false,
+    color: '#6d2eae',
+    blockExplorer: makeExplorer({
+      name: 'HECO Explorer',
+      origin: 'https://hecoinfo.com'
+    }),
+    tokens: [],
+    contracts: [],
+    dPaths: {
+      [WalletId.TREZOR]: HECO_DEFAULT,
+      [WalletId.LEDGER_NANO_S]: LEDGER_ETH,
+      [WalletId.TREZOR_NEW]: HECO_DEFAULT,
+      [WalletId.LEDGER_NANO_S_NEW]: LEDGER_ETH,
+      default: HECO_DEFAULT
     },
     gasPriceSettings: {
       min: 1,

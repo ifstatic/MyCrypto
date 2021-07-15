@@ -17,6 +17,7 @@ import {
   DEFAULT_EWC,
   DEFAULT_EXP,
   DEFAULT_GO,
+  DEFAULT_HECO,
   DEFAULT_METADIUM,
   DEFAULT_MIX,
   DEFAULT_POA,
@@ -28,7 +29,6 @@ import {
   DEFAULT_VOLTA,
   DEFAULT_WEB,
   DEFAULT_XDAI,
-  HECO_DEFAULT,
   LEDGER_ETC,
   LEDGER_ETH,
   MAINNET_RSK,
@@ -1120,11 +1120,11 @@ export const NETWORKS_CONFIG: NetworkConfig = {
     tokens: [],
     contracts: [],
     dPaths: {
-      [WalletId.TREZOR]: HECO_DEFAULT,
+      [WalletId.TREZOR]: DEFAULT_HECO,
       [WalletId.LEDGER_NANO_S]: LEDGER_ETH,
-      [WalletId.TREZOR_NEW]: HECO_DEFAULT,
+      [WalletId.TREZOR_NEW]: DEFAULT_HECO,
       [WalletId.LEDGER_NANO_S_NEW]: LEDGER_ETH,
-      default: HECO_DEFAULT
+      default: DEFAULT_HECO
     },
     gasPriceSettings: {
       min: 1,
